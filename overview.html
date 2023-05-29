@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="bluelock.css">
+</head>
+<body>
+    <div class="qqq">BLUE LOCK</div>
+  <nav>
+    <ul>
+      <div class="z" ><li><a href="index.html">BL Players</a></li>
+      <li><a href="world5.html">World 5 Players</a></li>
+      <li><a href="overview.html">Episodes</a></li>
+      </div>
+    </ul>
+  </nav>
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: #375a7f;
+      text-align: center;
+    }
+    
+    .episode-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    
+    .episode-list li {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .episode-list li:hover {
+      background-color: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Blue Lock - Episode List</h1>
+  
+  <ul class="episode-list">
+    <li>Episode 1:Dream </li>
+    <li>Episode 2: Monster</li>
+    <li>Episode 3: Soccer's "Zero" </li>
+    <li>Episode 4:Premonition and Intuition</li>
+    <li>Episode 5:To Be Reborn </li>
+    <li>Episode 6: I'm Sorry   </li>
+    <li>Episode 7:Rush </li>
+    <li>Episode 8:The Formula for Goals </li>
+    <li>Episode 9: Awakening
+    </li>
+    <li>Episode 10:Just the Way It Is
+    </li>
+    <li>Episode 11:The Final Piece
+    </li>
+    <li>Episode 12:The Second Selection
+    </li>
+    <li>Episode 13:Top 3 </li>
+    <li>Episode 14: The Geniuses and the Average Joes
+    </li>
+    <li>Episode 15:Devour </li>
+    <li>Episode 16:Tri-Fusion
+    </li>
+    <li>Episode 17: Donkey </li>
+    <li>Episode 18:The Stage for the Lead
+    </li>
+    <li>Episode 19:Dancing Boy </li>
+    <li>Episode 20: Super Link-Up Play
+    </li>
+    <li>Episode 21:I'm Not There
+    </li>
+    <li>Episode 22:Voice </li>
+    <li>Episode 23: Luck </li>
+    <li>Episode 24: The Time Has Come</li>
+  </ul>
+  
+  <script>
+    // JavaScript code
+    var episodeList = document.querySelector('.episode-list');
+    var episodes = episodeList.getElementsByTagName('li');
+    
+    for (var i = 0; i < episodes.length; i++) {
+      episodes[i].addEventListener('click', function() {
+        // Handle episode click event
+        var episodeTitle = this.textContent;
+        console.log('Clicked on episode: ' + episodeTitle);
+        
+        // Add your desired functionality here
+      });
+    }
+  </script>
+</body>
+</html>
