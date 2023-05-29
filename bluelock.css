@@ -67,3 +67,11 @@ nav {
 .img-conta{
   height: 100px;
 }
+
+.flex-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-box > div{
+  width: 50%;
+}
